@@ -1,0 +1,262 @@
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <style>
+            body{
+                margin: 1px;
+            }
+            .agrupado{
+                background-color: #000000;
+                color: #ffffff;
+                margin: -1px;
+                font-family: arial;
+            }
+            .pagina{
+                background-color: #000000;
+                color: #ffffff;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .promo{
+                display: flex;
+                font-size: 1.625rem;
+                justify-content: center;
+                width: 913px;
+                flex-direction: column;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .preguntas1{
+                margin-left: 60px;
+            }
+                       
+            
+            .section1{
+                background: linear-gradient(rgba(3, 3, 3, 0.7), rgba(3, 3, 3, 0.7)), url(img/back.jpg);           
+                height: 700px;
+                background-repeat: no-repeat;
+                background-size: cover;
+                
+            }
+            /*.fondo{
+                width: 100%;
+                height: 100%;
+                
+                object-fit: cover;
+            }*/
+            
+            
+            .header{
+                display: flex;
+                justify-content: space-between;                
+            }
+            .logo{
+                width: 170px;
+                margin-left: 40px;
+            }
+            .inse{
+                display: flex;
+                border-radius: 5px;
+                background-color: red;
+                height: 35px;                
+                width: 120px;
+                justify-content: center;
+                align-items: center;
+                text-decoration: none;
+                color: white;
+                font-weight: bold;
+                margin-top: 33px;
+                margin-right: 55px;
+            }
+            .promo{
+                text-align: center;
+                
+            }
+            .comenzar{
+                border-radius: 2px;
+                background-color: red;
+                font-weight: bold;
+                text-decoration: none;
+                color: white;
+                width: 190px;
+                height: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                
+            }
+            .disfruta{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                font-size: 1.625rem;
+                text-align: justify;
+                padding: 50px;
+                
+            }
+            .video1{
+                margin-left: 310px;
+                position: absolute;
+                z-index: 1;
+                right: 125px;
+                top: 859px;
+            }
+            .video2{
+                margin-left: 310px;
+                position: absolute;
+                z-index: 1;
+                width: 403px;
+                margin-top: -79px;
+                position: absolute;
+                right: 167px;
+            }
+            .imagen{
+                z-index: 2;
+            }
+            .imagen3{
+                z-index: 2;
+            }
+            .descarga{
+                display: flex;
+                justify-content: space-around;
+                text-align: center;
+                align-items: center;
+                font-size: 1.625rem;
+                padding: 50px;
+                
+            }
+            .disfruta2{
+                display: flex;
+                justify-content: space-around;
+                text-align: center;
+                align-items: center;
+                font-size: 1.625rem;
+                padding: 50px;
+                
+            }
+            .crea{
+                display: flex;
+                justify-content: space-around;
+                text-align: center;
+                align-items: center;
+                font-size: 1.625rem;
+                padding: 50px;
+                
+            }
+            .barrafinal{
+                display: flex;
+                justify-content: space-around;
+                
+            }
+            hr{
+                border: 3px solid #222;
+                
+            }
+            .comenzartop{
+                display: flex;
+                justify-content: center;
+            }
+            .espacioenblanco{
+                width: 395px;
+                height: 50px;
+            }
+            .final{
+                padding: 97px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="agrupado">
+            <div class="pagina">
+                
+                    <div class="section1">
+                    <!--  <img class="fondo" src="back.jpg"> -->
+                        <!--<div class="transparencia"></div> -->
+                        <div class="header">
+                            <img class="logo" src="img/netflix.png">
+                            <a class="inse" href="#">Iniciar Sesión</a>
+                        </div>
+                        <div class="promo">
+                            <h1>Películas y series ilimitadas y mucho más.</h1>
+                            <h2>Disfruta donde quieras. Cancela cuando quieras.</h2>
+                            <p>¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta o reiniciar tu membresía de Netflix.</p>
+                            <div class="comenzartop">
+                                <form class="form">
+                                    <input type="text" id="fname" name="fname" placeholder="Email" class="espacioenblanco">
+                                </form>
+                                <a class="comenzar" href="#">Comenzar ></a>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                
+                <hr>
+                <div class="disfruta">
+                    <div class="texto">
+                        <h2>Disfruta en tu TV.</h2>
+                        <p>Ve en smart TV, PlayStation, Xbox, Chromecast, Apple TV, reproductores de Blu-ray y más.</p>
+                    </div>
+                    <video class="video1" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v" autoplay muted loop></video>
+                    <div class="imagen"><img src="img/tv.png"></div>
+                </div>
+                <hr>
+                <div class="descarga">
+                    <div class="imagen2"><img src="img/mobile.jpg"></div>
+                    <div class="texto2">
+                        <h2>Descarga tus series para verlas offline.</h2>
+                        <p>Guarda tu contenido favorito y tendrás siempre algo para ver.</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="disfruta2">
+                    <div class="texto3">
+                        <h2>Disfruta donde quieras.</h2>
+                        <p>Películas y series ilimitadas en tu teléfono, tablet, computadora y TV sin costo adicional.</p>
+                    </div>
+                    <video class="video2" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices.m4v" autoplay muted loop></video>
+                    <div class="imagen3"><img src="img/device.png"></div>
+                </div>
+                <hr>
+                <div class="crea">
+                    <div class="imagen4"><img src="img/otra.png"></div>
+                    <div class="texto4">
+                        <h2>Crea perfiles para niños.</h2>
+                        <p>Los niños vivirán aventuras con sus personajes favoritos en un espacio diseñado exclusivamente para ellos, sin costo con tu membresía.</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="final">
+                    <div><p class="preguntas1">¿Preguntas? Llama al 01 800 917 1564</p></div>
+                    <div class="barrafinal">
+                        <div class="preguntas">
+                            <p>Preguntas frecuentes</p>
+                            <p>Relaciones con inversionistas</p>
+                            <p>Formas de ver</p>
+                            <p>Informacion corporativa</p>
+                            <p>Solo en Netflix</p>
+                        </div>
+                        <div class="centro">
+                            <p>Centro de ayuda</p>
+                            <p>Empleo</p>
+                            <p>Terminos de uso</p>
+                            <p>Contactanos</p>
+                        </div>
+                        <div class="cuenta">
+                            <p>Cuenta</p>
+                            <p>Canjear tarjeta de regalo</p>
+                            <p>Privacidad</p>
+                            <p>Prueba de velocidad</p>
+                        </div>
+                        <div class="prensa">
+                            <p>Prensa</p>
+                            <p>Comprar tarjeta de regalo</p>
+                            <p>Preferencias de cookies</p>
+                            <p>Avisos legales</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>
